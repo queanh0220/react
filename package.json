@@ -1,0 +1,20 @@
+{
+  "name": "vd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "build": "npx babel js/script.jsx -o js/script.js",
+  "babel": {
+    "presets": ["react"]
+    },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}
+
